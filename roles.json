@@ -1,6 +1,7 @@
 {
   "users": {
-    "alice@example.com": ["admin"],
-    "bob@example.com": ["developer"]
+    "john.doe": ["admin", "manager"],
+    "jane.smith": ["manager"],
+    "guest.user": ["user"]
   }
 }
