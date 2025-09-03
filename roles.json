@@ -1,0 +1,6 @@
+{
+  "users": {
+    "alice@example.com": ["admin"],
+    "bob@example.com": ["developer"]
+  }
+}
