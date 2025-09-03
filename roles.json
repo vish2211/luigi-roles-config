@@ -1,7 +1,5 @@
 {
-  "users": {
-    "john.doe": ["admin", "manager"],
-    "jane.smith": ["manager"],
-    "guest.user": ["user"]
-  }
+  "vish2211": ["ADMIN", "PRODUCT_USER"],
+  "devUser": ["DEVELOPER"],
+  "guest": []
 }
