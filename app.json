@@ -1,11 +1,12 @@
 {
   "catalog": {
-    "app1":  { "label": "Application 1", "pathSegment": "app1",  "viewUrl": "/microfrontends/app1.html" },
-    "app2":  { "label": "Application 2", "pathSegment": "app2",  "viewUrl": "/microfrontends/app2.html" },
-    "admin": { "label": "Admin App",     "pathSegment": "admin", "viewUrl": "/microfrontends/admin.html" }
+    "home": { "label": "Home", "pathSegment": "home", "viewUrl": "/microfrontends/Home.js" },
+    "product": { "label": "Product", "pathSegment": "product", "viewUrl": "/microfrontends/Product.js" },
+    "productDetail": { "label": "Product Detail", "pathSegment": "product-detail", "viewUrl": "/microfrontends/ProductDetail.js" },
+    "admin": { "label": "Admin", "pathSegment": "admin", "viewUrl": "/microfrontends/Admin.js" }
   },
   "roleAccess": {
-    "admin":     ["app1", "app2", "admin"],
-    "developer": ["app1", "app2"]
+    "admin": ["home","product","productDetail","admin"],
+    "developer": ["home","product","productDetail"]
   }
 }
