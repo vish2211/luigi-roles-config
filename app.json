@@ -1,0 +1,11 @@
+{
+  "catalog": {
+    "app1":  { "label": "Application 1", "pathSegment": "app1",  "viewUrl": "/microfrontends/app1.html" },
+    "app2":  { "label": "Application 2", "pathSegment": "app2",  "viewUrl": "/microfrontends/app2.html" },
+    "admin": { "label": "Admin App",     "pathSegment": "admin", "viewUrl": "/microfrontends/admin.html" }
+  },
+  "roleAccess": {
+    "admin":     ["app1", "app2", "admin"],
+    "developer": ["app1", "app2"]
+  }
+}
